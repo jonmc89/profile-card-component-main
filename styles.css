@@ -16,7 +16,26 @@
 }
 
 /* || Main Styles */
+html {
+  overflow: hidden;
+}
 
 body {
+  position: relative;
   background-color: var(--blue-600);
+}
+
+.bg-pattern-top,
+.bg-pattern-bottom {
+  position: absolute;
+}
+
+.bg-pattern-top {
+  top: -30.2481rem;
+  left: -33.6544rem;
+}
+
+.bg-pattern-bottom {
+  top: 32rem;
+  left: 8rem;
 }
