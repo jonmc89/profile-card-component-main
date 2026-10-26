@@ -14,3 +14,9 @@
   --navy-950: #2e3349;
   --gradient-1: linear-gradient(#53ffee, #0989b4);
 }
+
+/* || Main Styles */
+
+body {
+  background-color: var(--blue-600);
+}
