@@ -23,19 +23,97 @@ html {
 body {
   position: relative;
   background-color: var(--blue-600);
+  font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
 }
 
 .bg-pattern-top,
 .bg-pattern-bottom {
   position: absolute;
+  z-index: -1;
 }
 
 .bg-pattern-top {
-  top: -30.2481rem;
-  left: -33.6544rem;
+  top: -35rem;
+  left: -42rem;
 }
 
 .bg-pattern-bottom {
   top: 32rem;
   left: 8rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+
+.card {
+  border-radius: 0.9375rem;
+  background-color: var(--white);
+  min-width: 20.375rem;
+  height: 23.375rem;
+  overflow: clip;
+}
+
+.card-top {
+  background-image: url(./images/bg-pattern-card.svg);
+  height: 9rem;
+}
+
+.card-middle {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1rem solid var(--grey-100);
+  padding: 4rem 0 2rem 0;
+}
+
+h1,
+h2 {
+  color: var(--navy-950);
+  font-size: 1.125rem;
+
+  span {
+    color: var(--grey-500);
+    font-weight: 500;
+  }
+}
+
+p {
+  color: var(--grey-500);
+}
+
+.profile-picture {
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0.4rem solid var(--white);
+  border-radius: 50%;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  padding-top: 1.5rem;
+}
+
+.stat-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+
+  p {
+    font-size: 0.625rem;
+    letter-spacing: 0.0938rem;
+  }
 }
