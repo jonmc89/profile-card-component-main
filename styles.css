@@ -54,7 +54,8 @@ main {
 .card {
   border-radius: 0.9375rem;
   background-color: var(--white);
-  min-width: 20.375rem;
+  width: 100%;
+  max-width: 20.375rem;
   height: 23.375rem;
   overflow: clip;
 }
