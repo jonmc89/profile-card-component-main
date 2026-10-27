@@ -136,7 +136,7 @@ p {
   }
 }
 
-@media screen and (min-width: 86rem) {
+@media screen and (min-width: 90rem) {
   .bg-pattern-top {
     top: -32rem;
     left: -10rem;
