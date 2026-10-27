@@ -117,3 +117,33 @@ p {
     letter-spacing: 0.0938rem;
   }
 }
+
+/* || Media Queries */
+
+@media screen and (min-width: 51.25rem) {
+  .bg-pattern-top {
+    top: -18rem;
+    left: -28rem;
+  }
+
+  .bg-pattern-bottom {
+    top: 38rem;
+    left: 35rem;
+  }
+
+  .card {
+    width: 21.875rem;
+  }
+}
+
+@media screen and (min-width: 86rem) {
+  .bg-pattern-top {
+    top: -32rem;
+    left: -10rem;
+  }
+
+  .bg-pattern-bottom {
+    top: 32rem;
+    left: 70rem;
+  }
+}
